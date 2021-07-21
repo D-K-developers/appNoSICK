@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="background_one">#722FDD</color>
+    <color name="background_two">#2BBBD5</color>
+    <color name="background_three">#DD185D</color>
+    <color name="background_four">#EA6B17</color>
+    <color name="covid1">#fff</color>
+    <color name="covid3">#DD1818</color>
+    <color name="bird_flu">#18DD1B</color>
+    <color name="light_blue_50">#FFE1F5FE</color>
+    <color name="light_blue_200">#FF81D4FA</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="ebolaTextColor">#E5B403</color>
+    <color name="ebolaContentColor">#03E58B</color>
+</resources>

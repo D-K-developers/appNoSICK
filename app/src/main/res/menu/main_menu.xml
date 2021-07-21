@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Коронавирус"
+            android:icon="@drawable/ic_coronavirus"
+            android:id="@+id/coronavirus"
+            />
+
+        <item
+            android:title="Грипп"
+            android:icon="@drawable/ic_coronavirus"
+            android:id="@+id/flue"
+            />
+
+        <item
+            android:title="Эбола"
+            android:icon="@drawable/ic_coronavirus"
+            android:id="@+id/ebola"
+            />
+
+        <item
+            android:title="Птичий грипп"
+            android:icon="@drawable/ic_coronavirus"
+            android:id="@+id/bird_flu"
+            />
+
+    </group>
+        <item android:title=""
+            >
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:title="Настройки"
+                        android:icon="@drawable/ic_baseline_settings_24"
+                        android:id="@+id/settings"
+                        />
+
+                    <item
+                        android:title="Поддержка"
+                        android:icon="@drawable/support"
+                        android:id="@+id/support"
+                        />
+                </group>
+            </menu>
+
+        </item>
+
+</menu>

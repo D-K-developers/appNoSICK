@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#CA9260"
+    tools:context=".FragmentOne">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/nunito_semibold"
+        android:text="Эбола"
+        android:textColor="@color/white"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/ebolaskip1_btn"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="83dp"
+        android:layout_height="22dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="16dp"
+        android:background="#00FFFFFF"
+        android:fontFamily="@font/nunito_semibold"
+        android:text="Пропустить"
+        android:textColor="@color/white"
+        android:textSize="10sp" />
+
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="556dp"
+        android:layout_below="@+id/title"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/nunito_regular"
+            android:gravity="center_horizontal"
+            android:text="Краткая история появления гриппа"
+            android:textColor="@color/white"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="16dp"
+            android:fontFamily="@font/nunito_regular"
+            android:gravity="center_horizontal"
+            android:text="Эпидемия лихорадки Эбола в Западной Африке началась с двухлетнего мальчика. Он играл в дупле огромного дерева с насекомоядной летучей мышью. Лихорадка у ребенка началась 2 декабря 2013 года, сопровождалась тошнотой и стулом с кровью. Через 4 дня он умер. Несколько дней спустя у других членов семьи появились такие же симптомы. Затем все друг за другом начали заражаться и умирать."
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="wrap_content"
+            android:layout_height="233dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="16dp"
+            android:fontFamily="@font/nunito_regular"
+            android:gravity="center_horizontal"
+            android:text="Причиной быстрого распространения вируса в Западной Африке стали слабая гигиена и антисанитария, местные обычаи похорон, когда нужно обязательно поцеловать покойника. Многие местные жители скрывали заболевших от врачей и тайно хоронили умерших, хотя их нужно было сжигать для предотвращения попадания вируса в питьевую воду. В Западной Африке считается, что от похорон родственника зависит не только его положение в загробной жизни, но и благополучие живых членов семьи. "
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:src="@drawable/white_circle"/>
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:src="@drawable/white_circile_empty"/>
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:src="@drawable/white_circile_empty"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

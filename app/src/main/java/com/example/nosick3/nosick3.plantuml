@@ -1,0 +1,389 @@
+@startuml
+
+title __NOSICK3's Class Diagram__\n
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.BirdFluActivity {
+        ~ back : Button
+        # onCreate()
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.CovidActivity {
+        ~ menu : ImageView
+        ~ open : Button
+        ~ push : Button
+        ~ spinner : Spinner
+        {static} - CHANNEL_ID : String
+        {static} - NOTIFY_ID : int
+        - conf : TextView
+        - countries : String[]
+        - dead : TextView
+        - notificationManager : NotificationManager
+        - rec : TextView
+        - stringy : String
+        # onCreate()
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.CovidFragment1 {
+        {static} - ARG_PARAM1 : String
+        {static} - ARG_PARAM2 : String
+        - mParam1 : String
+        - mParam2 : String
+        + CovidFragment1()
+        {static} + newInstance()
+        + onCreate()
+        + onCreateView()
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.CovidFragment2 {
+        {static} - ARG_PARAM1 : String
+        {static} - ARG_PARAM2 : String
+        - mParam1 : String
+        - mParam2 : String
+        + CovidFragment2()
+        {static} + newInstance()
+        + onCreate()
+        + onCreateView()
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.CovidFragment3 {
+        ~ onmain : ImageView
+        {static} - ARG_PARAM1 : String
+        {static} - ARG_PARAM2 : String
+        - mParam1 : String
+        - mParam2 : String
+        + CovidFragment3()
+        {static} + newInstance()
+        + onCreate()
+        + onCreateView()
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.CovidViewPager {
+        + CovidViewPager()
+        + getCount()
+        + getItem()
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.Data {
+        - confirmed : Integer
+        - deaths : Integer
+        - lastChecked : String
+        - lastReported : String
+        - location : String
+        - recovered : Integer
+        + getConfirmed()
+        + getDeaths()
+        + getLastChecked()
+        + getLastReported()
+        + getLocation()
+        + getRecovered()
+        + setConfirmed()
+        + setDeaths()
+        + setLastChecked()
+        + setLastReported()
+        + setLocation()
+        + setRecovered()
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.Ebola {
+        ~ back : Button
+        ~ detected : TextView
+        ~ died : TextView
+        ~ readebola : Button
+        - detectedbar : ProgressBar
+        - diedbar : ProgressBar
+        # onCreate()
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.EbolaFragment1 {
+        {static} - ARG_PARAM1 : String
+        {static} - ARG_PARAM2 : String
+        - mParam1 : String
+        - mParam2 : String
+        + EbolaFragment1()
+        {static} + newInstance()
+        + onCreate()
+        + onCreateView()
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.EbolaFragment2 {
+        {static} - ARG_PARAM1 : String
+        {static} - ARG_PARAM2 : String
+        - mParam1 : String
+        - mParam2 : String
+        + EbolaFragment2()
+        {static} + newInstance()
+        + onCreate()
+        + onCreateView()
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.EbolaFragment3 {
+        ~ button : Button
+        {static} - ARG_PARAM1 : String
+        {static} - ARG_PARAM2 : String
+        - mParam1 : String
+        - mParam2 : String
+        + EbolaFragment3()
+        {static} + newInstance()
+        + onCreate()
+        + onCreateView()
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.EmptyCovidActivity {
+        ~ covidpager : LiquidPager
+        # onCreate()
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.EmptyEbolaActivity {
+        ~ pager : LiquidPager
+        # onCreate()
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.Example {
+        - error : Boolean
+        - message : String
+        - statusCode : Integer
+        + getData()
+        + getError()
+        + getMessage()
+        + getStatusCode()
+        + setData()
+        + setError()
+        + setMessage()
+        + setStatusCode()
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.FluActivity {
+        ~ back : Button
+        ~ drawerLayout : DrawerLayout
+        ~ navigationView : NavigationView
+        ~ pager : LiquidPager
+        ~ toggle : ActionBarDrawerToggle
+        ~ toolbar : Toolbar
+        - CurrentProgress : int
+        - CurrentProgress1 : int
+        - percent : TextView
+        - percent1 : TextView
+        - progressBar : ProgressBar
+        - progressBar1 : ProgressBar
+        - read : Button
+        # onCreate()
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.FragmentFour {
+        ~ onmain : Button
+        {static} - ARG_PARAM1 : String
+        {static} - ARG_PARAM2 : String
+        - mParam1 : String
+        - mParam2 : String
+        + FragmentFour()
+        {static} + newInstance()
+        + onCreate()
+        + onCreateView()
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.FragmentOne {
+        ~ skip1 : TextView
+        {static} - ARG_PARAM1 : String
+        {static} - ARG_PARAM2 : String
+        - mParam1 : String
+        - mParam2 : String
+        + FragmentOne()
+        {static} + newInstance()
+        + onCreate()
+        + onCreateView()
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.FragmentThree {
+        ~ skip3 : Button
+        {static} - ARG_PARAM1 : String
+        {static} - ARG_PARAM2 : String
+        - mParam1 : String
+        - mParam2 : String
+        + FragmentThree()
+        {static} + newInstance()
+        + onCreate()
+        + onCreateView()
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.FragmentTwo {
+        ~ skip2 : Button
+        {static} - ARG_PARAM1 : String
+        {static} - ARG_PARAM2 : String
+        - mParam1 : String
+        - mParam2 : String
+        + FragmentTwo()
+        {static} + newInstance()
+        + onCreate()
+        + onCreateView()
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.Info {
+        ~ confirmed : String
+        ~ deaths : String
+        ~ recovered : String
+        + Info()
+        + getConfirmed()
+        + getDeaths()
+        + getRecovered()
+        + setConfirmed()
+        + setDeaths()
+        + setRecovered()
+        + toString()
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.LiquidCovidAdapter {
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.LiquidEbolaAdapter {
+        + LiquidEbolaAdapter()
+        + getCount()
+        + getItem()
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.LiqwidActivity {
+        ~ main : Button
+        ~ pager : LiquidPager
+        # onCreate()
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.MainActivity {
+        ~ birdflubtn : Button
+        ~ covidbtn : Button
+        ~ drawerLayout : DrawerLayout
+        ~ ebolabtn : Button
+        ~ flubtn : Button
+        ~ menubar : Button
+        ~ navigationView : NavigationView
+        ~ toggle : ActionBarDrawerToggle
+        ~ toolbar : Toolbar
+        # onCreate()
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.SplashScreen {
+        ~ bg : ImageView
+        ~ lottieAnimationView : LottieAnimationView
+        ~ text : TextView
+        # onCreate()
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.ViewPagerAdapter {
+        + ViewPagerAdapter()
+        + getCount()
+        + getItem()
+    }
+  }
+  
+
+  com.example.nosick3.BirdFluActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.nosick3.CovidActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.nosick3.CovidFragment1 -up-|> androidx.fragment.app.Fragment
+  com.example.nosick3.CovidFragment2 -up-|> androidx.fragment.app.Fragment
+  com.example.nosick3.CovidFragment3 -up-|> androidx.fragment.app.Fragment
+  com.example.nosick3.CovidViewPager -up-|> androidx.fragment.app.FragmentPagerAdapter
+  com.example.nosick3.Ebola -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.nosick3.EbolaFragment1 -up-|> androidx.fragment.app.Fragment
+  com.example.nosick3.EbolaFragment2 -up-|> androidx.fragment.app.Fragment
+  com.example.nosick3.EbolaFragment3 -up-|> androidx.fragment.app.Fragment
+  com.example.nosick3.EmptyCovidActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.nosick3.EmptyCovidActivity o-- com.example.nosick3.CovidViewPager : adapter
+  com.example.nosick3.EmptyEbolaActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.nosick3.EmptyEbolaActivity o-- com.example.nosick3.LiquidEbolaAdapter : adapter
+  com.example.nosick3.Example o-- com.example.nosick3.Data : data
+  com.example.nosick3.FluActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.nosick3.FluActivity o-- com.example.nosick3.ViewPagerAdapter : adapter
+  com.example.nosick3.FragmentFour -up-|> androidx.fragment.app.Fragment
+  com.example.nosick3.FragmentOne -up-|> androidx.fragment.app.Fragment
+  com.example.nosick3.FragmentThree -up-|> androidx.fragment.app.Fragment
+  com.example.nosick3.FragmentTwo -up-|> androidx.fragment.app.Fragment
+  com.example.nosick3.LiquidEbolaAdapter -up-|> androidx.fragment.app.FragmentPagerAdapter
+  com.example.nosick3.LiqwidActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.nosick3.LiqwidActivity o-- com.example.nosick3.ViewPagerAdapter : adapter
+  com.example.nosick3.MainActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.nosick3.SplashScreen -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.nosick3.ViewPagerAdapter -up-|> androidx.fragment.app.FragmentPagerAdapter
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml

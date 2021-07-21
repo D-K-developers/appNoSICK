@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">NOSICK3</string>
+    <string name="open">Открыть</string>
+    <string name="close">Закрыть</string>
+
+    <string name="pade_one_title">Что такое грипп?</string>
+    <string name="pade_one_content">Грипп - инфекционное заболевание дыхательных путей, передающиеся воздушно-капельным путем. Источник инфекции - больной человек, который опасен для окружающих до 7 дней от начала заболевания</string>
+
+    <string name="pade_2_title">Симптомы гриппа</string>
+    <string name="pade_2_content">Внезапный подъем температуры тела, головная боль, ломота в мышцах и суставах, боль и жжение в горле, сухой кашель и затрудненное дыхание, слабость, диарея, боль при движении глаз.</string>
+
+    <string name="pade_3_title">Профилактика</string>
+    <string name="pade_3_content">Чтобы максимально обезопасить себя и своих родных, друзей, нужно проводить профилактику, а именно: вести здоровый образ жизни, мыть руки регулярно, избегать большого количества людей и контакта с больными людьми, а также воспользоваться самой сильной защитой - вакциной от гриппа!</string>
+
+    <string name="pade_4_title">Если же вы заболели:</string>
+    <string name="pade_4_content">Никуда не выходить, соблюдать постельный режим, обильно употреблять теплую жидкость, проветривать и проводить влажную уборку в помещении. Если же вам совсем плохо, необходимо вызвать врача и не заниматься самолечением.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+
+
+</resources>

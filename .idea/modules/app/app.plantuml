@@ -1,0 +1,203 @@
+@startuml
+
+title __NOSICK3.APP's Class Diagram__\n
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.BirdFluActivity {
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.BuildConfig {
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.CovidActivity {
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.CovidFragment1 {
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.CovidFragment2 {
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.CovidFragment3 {
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.CovidViewPager {
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.Data {
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.Ebola {
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.EbolaFragment1 {
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.EbolaFragment2 {
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.EbolaFragment3 {
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.EmptyCovidActivity {
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.EmptyEbolaActivity {
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.Example {
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.FluActivity {
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.FragmentFour {
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.FragmentOne {
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.FragmentThree {
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.FragmentTwo {
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.Info {
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.LiquidCovidAdapter {
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.LiquidEbolaAdapter {
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.LiqwidActivity {
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.MainActivity {
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.SplashScreen {
+    }
+  }
+  
+
+  namespace com.example.nosick3 {
+    class com.example.nosick3.ViewPagerAdapter {
+    }
+  }
+  
+
+  com.example.nosick3.BirdFluActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.nosick3.CovidActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.nosick3.CovidFragment1 -up-|> androidx.fragment.app.Fragment
+  com.example.nosick3.CovidFragment2 -up-|> androidx.fragment.app.Fragment
+  com.example.nosick3.CovidFragment3 -up-|> androidx.fragment.app.Fragment
+  com.example.nosick3.CovidViewPager -up-|> androidx.fragment.app.FragmentPagerAdapter
+  com.example.nosick3.Ebola -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.nosick3.EbolaFragment1 -up-|> androidx.fragment.app.Fragment
+  com.example.nosick3.EbolaFragment2 -up-|> androidx.fragment.app.Fragment
+  com.example.nosick3.EbolaFragment3 -up-|> androidx.fragment.app.Fragment
+  com.example.nosick3.EmptyCovidActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.nosick3.EmptyCovidActivity o-- com.example.nosick3.CovidViewPager : adapter
+  com.example.nosick3.EmptyEbolaActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.nosick3.EmptyEbolaActivity o-- com.example.nosick3.LiquidEbolaAdapter : adapter
+  com.example.nosick3.Example o-- com.example.nosick3.Data : data
+  com.example.nosick3.FluActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.nosick3.FluActivity o-- com.example.nosick3.ViewPagerAdapter : adapter
+  com.example.nosick3.FragmentFour -up-|> androidx.fragment.app.Fragment
+  com.example.nosick3.FragmentOne -up-|> androidx.fragment.app.Fragment
+  com.example.nosick3.FragmentThree -up-|> androidx.fragment.app.Fragment
+  com.example.nosick3.FragmentTwo -up-|> androidx.fragment.app.Fragment
+  com.example.nosick3.LiquidEbolaAdapter -up-|> androidx.fragment.app.FragmentPagerAdapter
+  com.example.nosick3.LiqwidActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.nosick3.LiqwidActivity o-- com.example.nosick3.ViewPagerAdapter : adapter
+  com.example.nosick3.MainActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.nosick3.SplashScreen -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.nosick3.ViewPagerAdapter -up-|> androidx.fragment.app.FragmentPagerAdapter
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml
